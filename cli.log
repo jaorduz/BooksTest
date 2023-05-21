@@ -1,0 +1,34 @@
+INFO    : PreTeXt project found in `/home/shrodinger/Documents/GitHub/BooksTest/new-pretext-project`.
+INFO    : Initializing project with Git.
+INFO    : Successfully initialized new Git repository!
+INFO    : 
+INFO    : Preparing to deploy from active `main` git branch.
+INFO    : 
+INFO    : Using latest build located in `/home/shrodinger/Documents/GitHub/BooksTest/new-pretext-project/output/web`.
+INFO    : 
+WARNING : Remote GitHub repository is not yet configured.
+INFO    : 
+INFO    : And if you haven't already, create a remote GitHub repository for this project at:
+INFO    :     https://github.com/new
+INFO    : (Do NOT check any "initialize" options.)
+INFO    : On the next page, copy the URL in the "Quick Setup" section (use HTTPS unless you have SSH setup already).
+INFO    : 
+INFO    : 
+For information about authentication options for github, see: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github
+
+INFO    : Committing your latest build to the `gh-pages` branch.
+INFO    : 
+INFO    : Attempting to connect to remote repository at `https://jaorduz.github.io/BooksTest/`...
+INFO    : 
+WARNING : There was an issue connecting to GitHub repository located at https://github.com/jaorduz.github.io/BooksTest/
+INFO    : 
+INFO    : If you haven't already, configure SSH with GitHub by following instructions at:
+INFO    :     https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+INFO    : Then try to deploy again.
+INFO    : 
+INFO    : If `https://jaorduz.github.io/BooksTest/` doesn't match your GitHub repository,
+INFO    : use `git remote remove origin` on the command line then try to deploy again.
+INFO    : 
+ERROR   : Deploy was unsuccessful.
+INFO    : While running pretext, the following errors occurred:
+
