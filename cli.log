@@ -1,6 +1,14 @@
 INFO    : PreTeXt project found in `/home/shrodinger/Documents/GitHub/BooksTest`.
-INFO    : Preparing to deploy from active `master` git branch.
+INFO    : Now preparing local server to preview directory `/home/shrodinger/Documents/GitHub/BooksTest/output/web`.
+INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
+INFO    :   GitHub Pages site that can be shared with readers who cannot access your
+INFO    :   personal computer.)
 INFO    : 
-INFO    : Changes to project source since last commit detected.
-INFO    : Add/committing these changes to local Git repository.
-INFO    : 
+WARNING : Port 8000 could not be used.
+WARNING : Trying port 49172 instead.
+
+INFO    : Success! The most recent build of your project can be viewed in a web browser at the following url:
+INFO    :     http://localhost:49172
+INFO    : This page should open in a new tab automatically.
+INFO    : Use [Ctrl]+[C] to halt the server.
+

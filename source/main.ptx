@@ -3,13 +3,16 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
+  <!-- JO: To include Latex macros-->    
     <macros>
       \newcommand{\R}{\mathbb R}
-    </macros>
     <latex-image-preamble>
+<!-- JO: To include Latex packages-->    
       \usepackage{tikz}
     </latex-image-preamble>
+    </macros>
   </docinfo>
+
 
   <book xml:id="my-great-book">
     <title>My Great Book</title>
@@ -18,9 +21,9 @@
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Javier Orduz</personname>
+          <department>CS and Math</department>
+          <institution>Earlham College and QMexico</institution>
         </author>
         <date>
           <today />
@@ -31,14 +34,14 @@
 
         <website>
           <name>
-            <c>example.org</c>
+            <c>jaorduz.github.io</c>
           </name>
-          <address>https://example.org</address>
+          <address>https://jaorduz.github.io</address>
         </website>
 
         <copyright>
           <year>2020<ndash />2023</year>
-          <holder>You</holder>
+          <holder>JO</holder>
           <shortlicense> 
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
@@ -46,21 +49,89 @@
       </colophon>
     </frontmatter>
 
+
+<!--JO: To include chapters 1-->
     <chapter xml:id="chapter-title">
       <title>Chapter title</title>
 
       <section xml:id="section-title">
         <title>Section title</title>
-        <p>Hello</p>
+
+        <p>This an examples to leave objectives</p>
+
+ <objectives permid="ngj">
+    <ul permid="LIT">
+      <li permid="Eeu">
+        <p permid="FTH">
+          How is the average velocity of a moving object connected to the values of its position function?
+        </p>
+      </li>
+
+      <li permid="klD">
+        <p permid="maQ">
+          How do we interpret the average velocity of an object geometrically on the graph of its position function?
+        </p>
+      </li>
+
+      <li permid="QsM">
+        <p permid="ShZ">
+          How is the notion of instantaneous velocity connected to average velocity?
+        </p>
+      </li>
+    </ul>
+  </objectives>
+      </section>
+    </chapter>
+
+<!--JO: To include chapters 2-->
+    <chapter xml:id="chapter-title2">
+      <title>This is my second chapter</title>
+
+      <section xml:id="section-title2">
+        <title>This is a section of the second chapter</title>
+        <p>This section is about distributions</p>
+      <m>\alpha^2 + \beta^4</m>
+      </section>
+      </chapter>
+
+
+<!--JO: To include chapters 3-->
+    <chapter xml:id="chapter-title3">
+      <title>This is my third chapter</title>
+
+      <section xml:id="section-title3a">
+        <title>This is a section of the third chapter</title>
+        <p>This section is about probability</p>
+<sage>
+<input>2+2</input>
+<output>4</output>
+</sage>
       </section>
 
+      <section xml:id="section-title3b">
+        <title>This is  section of the third chapter</title>
+        <p>This section is about probability part two</p>
+          <!-- <figure width = "80%" xml:id="circle">
+            <caption>A circle</caption>
+              <image xml:id="cir-tikz">
+              <description>This is fig. </description>
+                <asymptote>
+                draw((0,0),3);
+                </asymptote>
+              </image>
+          </figure> -->
+      </section>
     </chapter>
+
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
-
+        <!-- JO: I added some tools-->
       <colophon>
         <p> This book was authored in <pretext />. </p>
+        <!-- JO: How to ref. other sections -->
+
+        <p> Here is the ref. <xref ref = "section-title3b"/>. Use it!</p>
       </colophon>
 
     </backmatter>

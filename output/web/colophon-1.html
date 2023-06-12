@@ -13,8 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="My Great Book">
-<meta property="book:author" content="You">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<meta property="book:author" content="Javier Orduz">
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
   tex: {
     inlineMath: [['\\(','\\)']],
@@ -26,6 +26,19 @@ window.MathJax = {
   options: {
     ignoreHtmlClass: "tex2jax_ignore|ignore-math",
     processHtmlClass: "process-math",
+    renderActions: {
+        findScript: [10, function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        }, '']
+    },
   },
   chtml: {
     scale: 0.98,
@@ -67,7 +80,7 @@ window.MathJax = {
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
-<p class="byline">You</p>
+<p class="byline">Javier Orduz</p>
 </div>
 <div id="searchresultsplaceholder" style="display: none">
 <button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
@@ -179,7 +192,10 @@ window.MathJax = {
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="frontmatter.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="frontmatter.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chapter-title.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
-</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(  \newcommand{\R}{\mathbb R}
+
+
+  \usepackage{tikz}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -193,14 +209,25 @@ window.MathJax = {
 <div class="toc-item"><a href="chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter title</span></a></div>
 <ul class="structural"><li><div class="toc-item"><a href="section-title.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Section title</span></a></div></li></ul>
 </li>
+<li>
+<div class="toc-item"><a href="chapter-title2.html" class="internal"><span class="codenumber">2</span> <span class="title">This is my second chapter</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="section-title2.html" class="internal"><span class="codenumber">2.1</span> <span class="title">This is a section of the second chapter</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="chapter-title3.html" class="internal"><span class="codenumber">3</span> <span class="title">This is my third chapter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="section-title3a.html" class="internal"><span class="codenumber">3.1</span> <span class="title">This is a section of the third chapter</span></a></div></li>
+<li><div class="toc-item"><a href="section-title3b.html" class="internal"><span class="codenumber">3.2</span> <span class="title">This is  section of the third chapter</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="colophon" id="colophon-1"><h2 class="heading hide-type">
 <span class="type">Colophon</span> <span class="codenumber"></span> <span class="title">Colophon</span>
 </h2>
-<p class="credit"><b class="title">Website</b> <a href="https://example.org"><code class="code-inline tex2jax_ignore">example.org</code></a></p>
-<p class="copyright">©2020–2023 You</p>
+<p class="credit"><b class="title">Website</b> <a href="https://jaorduz.github.io"><code class="code-inline tex2jax_ignore">jaorduz.github.io</code></a></p>
+<p class="copyright">©2020–2023 JO</p>
 <p class="license">This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <a class="external" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CreativeCommons.org</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-1" id="fn-1"><sup> 1 </sup></a></p></section><div class="hidden-content tex2jax_ignore" id="hk-fn-1"><div class="fn"><code class="code-inline tex2jax_ignore">creativecommons.org/licenses/by-sa/4.0</code></div></div>
 </div>
 <div class="ptx-content-footer">

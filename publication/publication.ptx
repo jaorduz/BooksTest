@@ -77,6 +77,7 @@
 
     <!-- Whether to knowl a particular elements is set here    -->
     <!-- Lots of elements have this possibility; see the guide -->
+    <!-- JO: This is to change the element public or not. -->
     <knowl
       theorem="no"
       proof="yes"
