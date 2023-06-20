@@ -2,6 +2,11 @@
 
 Visit <https://pretextbook.org/documentation.html> to learn more.
 
+
+To install 
+pip install pretext
+pip3 install pretext
+
 To make a new
 
 pretext build book
