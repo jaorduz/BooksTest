@@ -2,26 +2,21 @@
 
 Visit <https://pretextbook.org/documentation.html> to learn more.
 
+Without the tools
+- To install ```pip install pretext``` or ```pip3 install pretext```
 
-To install 
-pip install pretext
-pip3 install pretext
+Get start
+- Create a repository
+- Create a new project ```pretext new```
+- Modify and add sections
+- Build the book ```pretext build book```
+- Build the web ```pretext build web```
+- View the web ```pretext view web```
+- Build the  PDF ```pretext build print```
+- View the PDF ```pretext view print```
 
-To make a new
 
-pretext build book
 
-To build
-pretext build web
-
-To see a web
-pretext view web
-
-To print PDF
-pretext build print
-
-To see the PDF
-pretext view print
 
 
 To image (it didn't work)
