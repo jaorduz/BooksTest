@@ -1,14 +1,41 @@
-INFO    : PreTeXt project found in `/home/shrodinger/Documents/GitHub/BooksTest`.
-INFO    : Now preparing local server to preview directory `/home/shrodinger/Documents/GitHub/BooksTest/output/web`.
-INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
-INFO    :   GitHub Pages site that can be shared with readers who cannot access your
-INFO    :   personal computer.)
-INFO    : 
-WARNING : Port 8000 could not be used.
-WARNING : Trying port 49172 instead.
+INFO    : PreTeXt project found in `/Users/JO/Documents/GitHub/BooksTest`.
+WARNING : Using CLI version 1.7.0 but project's `requirements.txt`
+WARNING : is configured to use 1.5.3. Consider either installing
+WARNING : CLI version 1.5.3 or changing `requirements.txt` to match 1.7.0.
+INFO    : Since no build target was supplied, the first target of the project.ptx manifest (web) will be built.
 
-INFO    : Success! The most recent build of your project can be viewed in a web browser at the following url:
-INFO    :     http://localhost:49172
-INFO    : This page should open in a new tab automatically.
-INFO    : Use [Ctrl]+[C] to halt the server.
+INFO    : No change in assets requiring generating detected.  To force regeneration of assets, use `-g` flag.
+
+INFO    : Generating all assets in default formats as requested.
+INFO    : Note: PreTeXt will automatically generate assets that have been changed since your last build, so this option is no longer necessary unless something isn't happening as expected.
+INFO    : Note: No webwork elements found.
+INFO    : Note: No latex-image elements found.
+INFO    : Note: No asymptote elements found.
+INFO    : Note: No sageplot elements found.
+INFO    : Note: No interactive elements found.
+INFO    : Note: No video@youtube elements found.
+INFO    : Now copying play-button image for videos
+
+
+INFO    : Generating generic video preview, aka "play button" into /Users/JO/Documents/GitHub/BooksTest/generated-assets/play-button
+INFO    : Note: No program elements using codelens found.
+INFO    : Note: No elements needing datafile conversion found
+INFO    : Preparing to build into /Users/JO/Documents/GitHub/BooksTest/output/web.
+INFO    : 
+Now building HTML into /Users/JO/Documents/GitHub/BooksTest/output/web
+
+INFO    : discovering source file's directory name: /Users/JO/Documents/GitHub/BooksTest/source
+INFO    : verifying and expanding input directory: /Users/JO/Documents/GitHub/BooksTest/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/JO/Documents/GitHub/BooksTest/generated-assets
+INFO    : verifying and expanding input directory: /Users/JO/Documents/GitHub/BooksTest/source/../assets
+INFO    : input directory expanded to absolute path: /Users/JO/Documents/GitHub/BooksTest/assets
+INFO    : Runestone Services (via PreTeXt repository): version 6.5.0
+INFO    : Runestone Services (using newer, via online CDN query): version 7.1.0
+INFO    : converting /Users/JO/Documents/GitHub/BooksTest/source/main.ptx to HTML in /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpa6f23rxb
+INFO    : XSL conversion of /Users/JO/Documents/GitHub/BooksTest/source/main.ptx by /Users/JO/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of /Users/JO/.ptx/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /var/folders/rq/h9tvq1312s3d29xz12pnd5v40000gs/T/tmpa6f23rxb
+INFO    : 
+Success! Run `pretext view web` to see the results.
 

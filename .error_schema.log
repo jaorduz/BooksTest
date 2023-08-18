@@ -1,5 +1,5 @@
-/home/shrodinger/Documents/GitHub/BooksTest/source/main.ptx:33:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
-/home/shrodinger/Documents/GitHub/BooksTest/source/main.ptx:55:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
-/home/shrodinger/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
-/home/shrodinger/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
-/home/shrodinger/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section
+/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:33:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:55:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
+/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
+/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
+/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section
