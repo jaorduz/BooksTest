@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "colophon-1",
+  "id": "frontmatter-2",
   "level": "1",
-  "url": "colophon-1.html",
+  "url": "frontmatter-2.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "   jaorduz.github.io   https:\/\/jaorduz.github.io   copyright  "
+  "body": "  jaorduz.github.io   copyright  "
 },
 {
   "id": "section-title",
@@ -55,9 +55,9 @@ var ptx_lunr_docs = [
   "body": " This is section of the third chapter  This section is about probability part two   "
 },
 {
-  "id": "colophon-2",
+  "id": "backmatter-2",
   "level": "1",
-  "url": "colophon-2.html",
+  "url": "backmatter-2.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
@@ -69,6 +69,7 @@ var ptx_lunr_idx = lunr(function () {
   this.ref('id')
   this.field('title')
   this.field('body')
+  this.metadataWhitelist = ['position']
 
   ptx_lunr_docs.forEach(function (doc) {
     this.add(doc)

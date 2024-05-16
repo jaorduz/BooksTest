@@ -1,5 +1,5 @@
-/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:33:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
-/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:55:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
-/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
-/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
-/Users/JO/Documents/GitHub/BooksTest/source/main.ptx:57:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section
+/eccs/users/lsgoldb22/SummerResearch/BooksTest/source/main.ptx:33:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+/eccs/users/lsgoldb22/SummerResearch/BooksTest/source/main.ptx:19:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
+/eccs/users/lsgoldb22/SummerResearch/BooksTest/source/main.ptx:17:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+/eccs/users/lsgoldb22/SummerResearch/BooksTest/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+/eccs/users/lsgoldb22/SummerResearch/BooksTest/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there

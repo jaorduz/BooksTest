@@ -2,7 +2,7 @@
     "xml.fileAssociations": [
         {
             "pattern": "**/source/**.ptx",
-            "systemId": "/Users/JO/.ptx/schema/pretext.rng"
+            "systemId": "/eccs/home/lsgoldb22/.ptx/schema/pretext.rng"
         }
     ]
 }
