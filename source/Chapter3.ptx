@@ -2,5 +2,5 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 <section xml:id="sec-This is a new section">
     <title>This is a new section</title>
-    
+    <p> this is a sentence </p>
 </section>>
