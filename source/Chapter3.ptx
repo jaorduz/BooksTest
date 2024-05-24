@@ -1,3 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-This is a new section">
+    <title>This is a new section</title>
     
+</section>>
