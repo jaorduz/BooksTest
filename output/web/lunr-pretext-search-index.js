@@ -52,7 +52,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "This is  section of the third chapter",
-  "body": " This is section of the third chapter  This section is about probability part two   "
+  "body": " This is section of the third chapter  This section is about probability part two and three   "
+},
+{
+  "id": "section-title4a",
+  "level": "1",
+  "url": "section-title4a.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "This is a section of the test chapter",
+  "body": " This is a section of the test chapter  This is a test!    newsection         "
 },
 {
   "id": "backmatter-2",

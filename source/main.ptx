@@ -21,7 +21,7 @@
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>Javier Orduz</personname>
+          <personname>Javier Orduz and Levi Goldberg</personname>
           <department>CS and Math</department>
           <institution>Earlham College and QMexico</institution>
         </author>
@@ -110,7 +110,7 @@
 
       <section xml:id="section-title3b">
         <title>This is  section of the third chapter</title>
-        <p>This section is about probability part two</p>
+        <p>This section is about probability part two and three</p>
           <!-- <figure width = "80%" xml:id="circle">
             <caption>A circle</caption>
               <image xml:id="cir-tikz">
@@ -122,6 +122,34 @@
           </figure> -->
       </section>
     </chapter>
+
+  <!--LG: Making a test chapter-->
+  <chapter xml:id="chapter-title4">
+      <title>This is a test chapter</title>
+
+      <section xml:id="section-title4a">
+        <title>This is a section of the test chapter</title>
+        <p>This is a test!</p>
+<sage>
+<input>from qiskit import *</input>
+<output></output>
+</sage>
+<section xml:id="sec-newsection">
+  <title>newsection</title>
+  
+</section>
+<m>\frac{1}{2} = \int 4</m>
+
+<iframe src="https://en.wikipedia.org/wiki/HTML">
+</iframe>
+
+<p> <url href="https://en.wikipedia.org/wiki/HTML" visual="This is a hyperlink"></url>
+</p>
+
+
+
+      </section>
+  </chapter>
 
 
     <backmatter xml:id="backmatter">
